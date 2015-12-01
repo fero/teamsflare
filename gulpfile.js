@@ -61,4 +61,9 @@ elixir(function(mix) {
 
     mix.copy(angularRouteDir + 'angular-route.min.js', 'public/js/framework/angular-route.js');
     mix.copy(angularRouteDir + 'angular-route.min.js.map', 'public/js/framework/angular-route.js.map');
+
+    var angularAnimateDir = 'public/vendor/angular-animate/';
+
+    mix.copy(angularAnimateDir + 'angular-animate.min.js', 'public/js/framework/angular-animate.js');
+    mix.copy(angularAnimateDir + 'angular-animate.min.js.map', 'public/js/framework/angular-animate.js.map');
 });
