@@ -1,0 +1,25 @@
+{
+  "name": "Teamsflare",
+  "authors": [
+    "Victor Dumitru <vctr.dumitru@gmail.com>"
+  ],
+  "description": "",
+  "main": "main.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "teamsflare.dev",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "~3",
+    "fontawesome": "~4",
+    "angular": "1.4.8",
+    "angular-route": "~1.4.8"
+  }
+}
