@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b35e51c1-db24-481b-a2f1-72f404d79e26" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/pages/home.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/victor.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/victor.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/app.less" afterPath="$PROJECT_DIR$/resources/assets/less/app.less" />
     </list>
     <ignored path="teamsflare.iws" />
@@ -36,17 +32,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
+      <file leaf-file-name="CompaniesTableSeeder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/CompaniesTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.93195623">
-              <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
-              <folding />
+            <state vertical-scroll-proportion="0.46718577">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#38#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Eloquent Model" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -76,6 +81,17 @@
         <option value="$PROJECT_DIR$/public/resources/views/pages/home.html" />
         <option value="$PROJECT_DIR$/public/css/app.css" />
         <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
+        <option value="$PROJECT_DIR$/app/Company.php" />
+        <option value="$PROJECT_DIR$/app/Project.php" />
+        <option value="$PROJECT_DIR$/database/seeds/ProjectsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_12_03_170813_create_companies_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_12_03_170854_create_companies_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CompaniesTableSeeder.php" />
       </list>
     </option>
   </component>
@@ -99,10 +115,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="886" />
+    <option name="width" value="1600" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -382,16 +396,120 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
-    <property name="SearchEverywhereHistoryKey" value="getrawtags&#9;null&#9;null&#10;auth.php&#9;FILE&#9;file://D:/projects/teamsflare/config/auth.php" />
+    <property name="SearchEverywhereHistoryKey" value="increments&#9;null&#9;null&#10;getrawtags&#9;null&#9;null&#10;auth.php&#9;FILE&#9;file://D:/projects/teamsflare/config/auth.php" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
@@ -456,15 +574,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="0" y="0" width="1600" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -475,7 +594,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -517,60 +635,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1448996506480" expanded="false" signature="9:390" placeholder="..." />
-            <marker date="1448996506480" expanded="true" signature="405:456" placeholder="..." />
-            <marker date="1448996506480" expanded="true" signature="423:455" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -663,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21802002">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21802002">
@@ -728,23 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44697833">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1448231769514" expanded="false" signature="11:94" placeholder="..." />
-            <marker date="1448231769514" expanded="true" signature="139:547" placeholder="{...}" />
-            <marker date="1448231769514" expanded="true" signature="149:209" placeholder=" Run the migrations. ..." />
-            <marker date="1448231769514" expanded="true" signature="236:397" placeholder="{...}" />
-            <marker date="1448231769514" expanded="true" signature="266:389" placeholder="..." />
-            <marker date="1448231769514" expanded="true" signature="307:388" placeholder="..." />
-            <marker date="1448231769514" expanded="true" signature="406:470" placeholder=" Reverse the migrations. ..." />
-            <marker date="1448231769514" expanded="true" signature="499:545" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,9 +918,411 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93195623">
-          <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32703003">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1447099304929" expanded="true" signature="0:1200" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+            <marker date="1447099304929" expanded="true" signature="180:250" placeholder="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1447099304929" expanded="true" signature="271:419" placeholder="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
+            <marker date="1447099304929" expanded="true" signature="437:557" placeholder="{...}" />
+            <marker date="1447099304929" expanded="true" signature="459:493" placeholder="[...]" />
+            <marker date="1447099304929" expanded="true" signature="512:551" placeholder="{&quot;App\&quot;: &quot;app/&quot;...}" />
+            <marker date="1447099304929" expanded="true" signature="579:651" placeholder="{...}" />
+            <marker date="1447099304929" expanded="true" signature="601:645" placeholder="[...]" />
+            <marker date="1447099304929" expanded="true" signature="668:1139" placeholder="{...}" />
+            <marker date="1447099304929" expanded="true" signature="698:786" placeholder="[...]" />
+            <marker date="1447099304929" expanded="true" signature="814:866" placeholder="[...]" />
+            <marker date="1447099304929" expanded="true" signature="895:941" placeholder="[...]" />
+            <marker date="1447099304929" expanded="true" signature="980:1046" placeholder="[...]" />
+            <marker date="1447099304929" expanded="true" signature="1083:1133" placeholder="[...]" />
+            <marker date="1447099304929" expanded="true" signature="1155:1198" placeholder="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21802002">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4393771">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding>
+            <marker date="1447099304961" expanded="true" signature="15:4087" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="23:442" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="486:922" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="981:1629" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="1655:2986" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="1678:1812" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="1836:2246" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="2270:2629" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="2654:2978" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="2996:3429" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="3474:3893" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="3913:4083" placeholder="..." />
+            <marker date="1447099304961" expanded="true" signature="3966:4075" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33259177">
+          <caret line="393" column="20" selection-start-line="393" selection-start-column="20" selection-end-line="393" selection-end-column="20" />
+          <folding>
+            <marker date="1448974138176" expanded="false" signature="50:174" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="191:26337" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="201:275" placeholder=" The table the blueprint describes. ..." />
+            <marker date="1448974138176" expanded="true" signature="308:393" placeholder=" The columns that should be added to the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="433:518" placeholder=" The commands that should be run for the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="559:652" placeholder=" The storage engine that should be used for the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="683:757" placeholder=" The default character set that should be used for the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="789:851" placeholder=" The collation that should be used for the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="885:959" placeholder=" Whether to make the table temporary. ..." />
+            <marker date="1448974138176" expanded="true" signature="1001:1142" placeholder=" Create a new schema blueprint. ..." />
+            <marker date="1448974138176" expanded="true" signature="1210:1330" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="1284:1323" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="1339:1552" placeholder=" Execute the blueprint against the database. ..." />
+            <marker date="1448974138176" expanded="true" signature="1622:1762" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="1698:1755" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="1771:1988" placeholder=" Get the raw SQL statements for the blueprint. ..." />
+            <marker date="1448974138176" expanded="true" signature="2058:2769" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="2419:2733" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="2529:2723" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="2618:2709" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="2778:2870" placeholder=" Add the commands that are implied by the blueprint. ..." />
+            <marker date="1448974138176" expanded="true" signature="2916:3284" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="2996:3078" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="3156:3241" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="3293:3387" placeholder=" Add the index commands fluently specified on columns. ..." />
+            <marker date="1448974138176" expanded="true" signature="3431:4391" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="3483:4384" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="3548:4374" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="3844:3944" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="4243:4360" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="4400:4489" placeholder=" Determine if the blueprint has a create command. ..." />
+            <marker date="1448974138176" expanded="true" signature="4525:4707" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="4579:4677" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="4625:4667" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="4716:4823" placeholder=" Indicate that the table needs to be created. ..." />
+            <marker date="1448974138176" expanded="true" signature="4854:4910" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="4919:5006" placeholder=" Indicate that the table needs to be temporary. ..." />
+            <marker date="1448974138176" expanded="true" signature="5040:5085" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="5094:5199" placeholder=" Indicate that the table should be dropped. ..." />
+            <marker date="1448974138176" expanded="true" signature="5228:5282" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="5291:5409" placeholder=" Indicate that the table should be dropped if it exists. ..." />
+            <marker date="1448974138176" expanded="true" signature="5446:5508" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="5517:5667" placeholder=" Indicate that the given columns should be dropped. ..." />
+            <marker date="1448974138176" expanded="true" signature="5710:5867" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="5876:6045" placeholder=" Indicate that the given columns should be renamed. ..." />
+            <marker date="1448974138176" expanded="true" signature="6092:6177" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="6186:6339" placeholder=" Indicate that the given primary key should be dropped. ..." />
+            <marker date="1448974138176" expanded="true" signature="6388:6474" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="6483:6635" placeholder=" Indicate that the given unique key should be dropped. ..." />
+            <marker date="1448974138176" expanded="true" signature="6676:6760" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="6769:6916" placeholder=" Indicate that the given index should be dropped. ..." />
+            <marker date="1448974138176" expanded="true" signature="6956:7038" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="7047:7194" placeholder=" Indicate that the given foreign key should be dropped. ..." />
+            <marker date="1448974138176" expanded="true" signature="7236:7322" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="7331:7426" placeholder=" Indicate that the timestamp columns should be dropped. ..." />
+            <marker date="1448974138176" expanded="true" signature="7465:7532" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="7541:7636" placeholder=" Indicate that the timestamp columns should be dropped. ..." />
+            <marker date="1448974138176" expanded="true" signature="7677:7722" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="7731:7827" placeholder=" Indicate that the soft delete column should be dropped. ..." />
+            <marker date="1448974138176" expanded="true" signature="7867:7920" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="7929:8028" placeholder=" Indicate that the remember token column should be dropped. ..." />
+            <marker date="1448974138176" expanded="true" signature="8070:8127" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="8136:8259" placeholder=" Rename the table to a given name. ..." />
+            <marker date="1448974138176" expanded="true" signature="8293:8364" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="8373:8544" placeholder=" Specify the primary key(s) for the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="8598:8674" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="8683:8850" placeholder=" Specify a unique index for the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="8903:8978" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="8987:9148" placeholder=" Specify an index for the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="9200:9274" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="9283:9449" placeholder=" Specify a foreign key for the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="9503:9579" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="9588:9750" placeholder=" Create a new auto-incrementing integer (4-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="9792:9858" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="9867:10035" placeholder=" Create a new auto-incrementing small integer (2-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="10082:10153" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="10162:10331" placeholder=" Create a new auto-incrementing medium integer (3-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="10379:10451" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="10460:10626" placeholder=" Create a new auto-incrementing big integer (8-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="10671:10740" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="10749:10909" placeholder=" Create a new char column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="10960:11041" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="11050:11212" placeholder=" Create a new string column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="11265:11348" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="11357:11489" placeholder=" Create a new text column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="11525:11587" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="11596:11735" placeholder=" Create a new medium text column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="11777:11845" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="11854:11991" placeholder=" Create a new long text column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="12031:12097" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="12106:12317" placeholder=" Create a new integer (4-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="12399:12502" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="12511:12727" placeholder=" Create a new tiny integer (1-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="12813:12920" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="12929:13146" placeholder=" Create a new small integer (2-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="13233:13341" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="13350:13568" placeholder=" Create a new medium integer (3-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="13656:13765" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="13774:13989" placeholder=" Create a new big integer (8-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="14074:14180" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="14189:14383" placeholder=" Create a new unsigned tiny integer (1-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="14458:14536" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="14545:14740" placeholder=" Create a new unsigned small integer (2-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="14816:14895" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="14904:15100" placeholder=" Create a new unsigned medium integer (3-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="15177:15257" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="15266:15455" placeholder=" Create a new unsigned integer (4-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="15526:15600" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="15609:15802" placeholder=" Create a new unsigned big integer (8-byte) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="15876:15953" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="15962:16156" placeholder=" Create a new float column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="16218:16309" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="16318:16519" placeholder=" Create a new double column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="16588:16680" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="16689:16885" placeholder=" Create a new decimal column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="16949:17042" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="17051:17186" placeholder=" Create a new boolean column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="17225:17290" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="17299:17463" placeholder=" Create a new enum column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="17515:17597" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="17606:17738" placeholder=" Create a new json column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="17774:17836" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="17845:17978" placeholder=" Create a new jsonb column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="18015:18078" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="18087:18219" placeholder=" Create a new date column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="18255:18317" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="18326:18463" placeholder=" Create a new date-time column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="18503:18569" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="18578:18732" placeholder=" Create a new date-time column (with time zone) on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="18774:18842" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="18851:18983" placeholder=" Create a new time column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="19019:19081" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="19090:19239" placeholder=" Create a new time column (with time zone) on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="19277:19341" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="19350:19487" placeholder=" Create a new timestamp column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="19528:19595" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="19604:19758" placeholder=" Create a new timestamp (with time zone) column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="19801:19870" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="19879:19977" placeholder=" Add nullable creation and update timestamps to the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="20020:20137" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="20146:20235" placeholder=" Add creation and update timestamps to the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="20270:20363" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="20372:20470" placeholder=" Add creation and update timestampTz columns to the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="20507:20604" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="20613:20719" placeholder=" Add a &quot;deleted at&quot; timestamp for the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="20755:20826" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="20835:20969" placeholder=" Create a new binary column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="21007:21071" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="21080:21212" placeholder=" Create a new uuid column on the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="21248:21310" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="21319:21475" placeholder=" Add the proper columns for a polymorphic table. ..." />
+            <marker date="1448974138176" expanded="true" signature="21530:21695" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="21704:21813" placeholder=" Adds the `remember_token` column to the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="21851:21928" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="21937:22146" placeholder=" Create a new drop index command on the blueprint. ..." />
+            <marker date="1448974138176" expanded="true" signature="22213:22697" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="22522:22625" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="22706:22919" placeholder=" Add a new index command to the blueprint. ..." />
+            <marker date="1448974138176" expanded="true" signature="22982:23451" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="23302:23373" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="23460:23606" placeholder=" Create a default index name for the table. ..." />
+            <marker date="1448974138176" expanded="true" signature="23670:23816" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="23825:24015" placeholder=" Add a new column to the blueprint. ..." />
+            <marker date="1448974138176" expanded="true" signature="24088:24261" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="24270:24383" placeholder=" Remove a column from the schema blueprint. ..." />
+            <marker date="1448974138176" expanded="true" signature="24425:24622" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="24470:24591" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="24483:24590" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="24526:24589" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="24631:24792" placeholder=" Add a new command to the blueprint. ..." />
+            <marker date="1448974138176" expanded="true" signature="24859:24978" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="24987:25142" placeholder=" Create a new Fluent command. ..." />
+            <marker date="1448974138176" expanded="true" signature="25212:25294" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="25303:25384" placeholder=" Get the table the blueprint describes. ..." />
+            <marker date="1448974138176" expanded="true" signature="25417:25458" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="25467:25542" placeholder=" Get the columns on the blueprint. ..." />
+            <marker date="1448974138176" expanded="true" signature="25577:25620" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="25629:25705" placeholder=" Get the commands on the blueprint. ..." />
+            <marker date="1448974138176" expanded="true" signature="25741:25785" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="25794:25890" placeholder=" Get the columns on the blueprint that should be added. ..." />
+            <marker date="1448974138176" expanded="true" signature="25930:26057" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="25965:26049" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="26001:26048" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="26066:26164" placeholder=" Get the columns on the blueprint that should be changed. ..." />
+            <marker date="1448974138176" expanded="true" signature="26206:26335" placeholder="{...}" />
+            <marker date="1448974138176" expanded="true" signature="26241:26327" placeholder="..." />
+            <marker date="1448974138176" expanded="true" signature="26277:26326" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1447099305008" expanded="false" signature="11:94" placeholder="..." />
+            <marker date="1447099305008" expanded="true" signature="136:702" placeholder="{...}" />
+            <marker date="1447099305008" expanded="true" signature="146:206" placeholder=" Run the migrations. ..." />
+            <marker date="1447099305008" expanded="true" signature="233:555" placeholder="{...}" />
+            <marker date="1447099305008" expanded="true" signature="263:547" placeholder="..." />
+            <marker date="1447099305008" expanded="true" signature="301:546" placeholder="..." />
+            <marker date="1447099305008" expanded="true" signature="564:628" placeholder=" Reverse the migrations. ..." />
+            <marker date="1447099305008" expanded="true" signature="657:700" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Seeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1868743">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1557286">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <marker date="1447099304914" expanded="true" signature="27:424" placeholder="..." />
+            <marker date="1447099304914" expanded="true" signature="605:1090" placeholder="{...}" />
+            <marker date="1447099304914" expanded="true" signature="673:750" placeholder=" The database table used by the model. ..." />
+            <marker date="1447099304914" expanded="true" signature="793:872" placeholder=" The attributes that are mass assignable. ..." />
+            <marker date="1447099304914" expanded="true" signature="940:1030" placeholder=" The attributes excluded from the model's JSON form. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1449161320508" expanded="true" signature="91:102" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4983315">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <marker date="1447099304929" expanded="true" signature="52:512" placeholder="..." />
+            <marker date="1447099304929" expanded="true" signature="562:964" placeholder="..." />
+            <marker date="1447099304929" expanded="true" signature="1049:1077" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4983315">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <marker date="1449099850388" expanded="true" signature="11:94" placeholder="..." />
+            <marker date="1449099850388" expanded="true" signature="139:658" placeholder="{...}" />
+            <marker date="1449099850388" expanded="true" signature="149:209" placeholder=" Run the migrations. ..." />
+            <marker date="1449099850388" expanded="true" signature="236:508" placeholder="{...}" />
+            <marker date="1449099850388" expanded="true" signature="266:500" placeholder="..." />
+            <marker date="1449099850388" expanded="true" signature="307:499" placeholder="..." />
+            <marker date="1449099850388" expanded="true" signature="517:581" placeholder=" Reverse the migrations. ..." />
+            <marker date="1449099850388" expanded="true" signature="610:656" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_03_170854_create_companies_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46718577">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <marker date="1449162555913" expanded="false" signature="11:94" placeholder="..." />
+            <marker date="1449162555913" expanded="true" signature="140:586" placeholder="{...}" />
+            <marker date="1449162555913" expanded="true" signature="150:210" placeholder=" Run the migrations. ..." />
+            <marker date="1449162555913" expanded="true" signature="237:435" placeholder="{...}" />
+            <marker date="1449162555913" expanded="true" signature="267:427" placeholder="..." />
+            <marker date="1449162555913" expanded="true" signature="309:426" placeholder="..." />
+            <marker date="1449162555913" expanded="true" signature="444:508" placeholder=" Reverse the migrations. ..." />
+            <marker date="1449162555913" expanded="true" signature="537:584" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ProjectsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43604004">
+          <caret line="14" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1449162126993" expanded="true" signature="11:66" placeholder="..." />
+            <marker date="1449162126993" expanded="true" signature="108:542" placeholder="{...}" />
+            <marker date="1449162126993" expanded="true" signature="118:182" placeholder=" Run the database seeds. ..." />
+            <marker date="1449162126993" expanded="true" signature="210:540" placeholder="{...}" />
+            <marker date="1449162126993" expanded="true" signature="294:533" placeholder="..." />
+            <marker date="1449162126993" expanded="true" signature="328:522" placeholder="..." />
+            <marker date="1449162126993" expanded="true" signature="329:521" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1449162632128" expanded="true" signature="91:102" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46718577">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <marker date="1449162642861" expanded="true" signature="11:78" placeholder="..." />
+            <marker date="1449162642861" expanded="true" signature="115:453" placeholder="{...}" />
+            <marker date="1449162642861" expanded="true" signature="125:189" placeholder=" Run the database seeds. ..." />
+            <marker date="1449162642861" expanded="true" signature="217:451" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CompaniesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46718577">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
