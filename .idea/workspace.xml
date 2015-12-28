@@ -4,15 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/config/auth.php" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b35e51c1-db24-481b-a2f1-72f404d79e26" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/victor.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/victor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Project.php" afterPath="$PROJECT_DIR$/app/Project.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-    </list>
+    <list default="true" id="b35e51c1-db24-481b-a2f1-72f404d79e26" name="Default" comment="" />
     <ignored path="teamsflare.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -36,7 +28,7 @@
       <file leaf-file-name="ApiController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5294772">
+            <state vertical-scroll-proportion="0.34260288">
               <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="e#39#79#0#PHP" expanded="true" />
@@ -1395,7 +1387,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5294772">
+        <state vertical-scroll-proportion="0.34260288">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="e#39#79#0#PHP" expanded="true" />
