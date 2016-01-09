@@ -2,14 +2,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Response;
-use Symfony\Component\HttpFoundation\Response as IlluminatResponse;
+use Symfony\Component\HttpFoundation\Response as IlluminateResponse;
 
 class ApiController extends Controller
 {
     /**
      * @var int
      */
-    protected $statusCode = IlluminatResponse::HTTP_OK;
+    protected $statusCode = IlluminateResponse::HTTP_OK;
 
     /**
      * @return mixed
@@ -36,7 +36,7 @@ class ApiController extends Controller
      */
     public function respondNotFound($message = "Not found!")
     {
-        return $this->setStatusCode(IlluminatResponse::HTTP_NOT_FOUND)->respondWithError($message);
+        return $this->setStatusCode(IlluminateResponse::HTTP_NOT_FOUND)->respondWithError($message);
     }
 
     /**
@@ -45,7 +45,7 @@ class ApiController extends Controller
      */
     public function respondInternalError($message = "Internal error!")
     {
-        return $this->setStatusCode(IlluminatResponse::HTTP_INTERNAL_SERVER_ERROR)->respondWithError($message);
+        return $this->setStatusCode(IlluminateResponse::HTTP_INTERNAL_SERVER_ERROR)->respondWithError($message);
     }
 
     /**
@@ -78,7 +78,7 @@ class ApiController extends Controller
      */
     public function respondCreated($message)
     {
-        return $this->setStatusCode(201)
+        return $this->setStatusCode(IlluminateResponse::HTTP_CREATED)
             ->respond([
                 "data" => $message
             ]);
@@ -90,7 +90,7 @@ class ApiController extends Controller
      */
     public function respondValidationFailed($message)
     {
-        return $this->setStatusCode(422)
+        return $this->setStatusCode(IlluminateResponse::HTTP_UNPROCESSABLE_ENTITY)
             ->respondWithError($message);
     }
 }

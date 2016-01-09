@@ -16,7 +16,9 @@ class ProjectsTableSeeder extends Seeder
 
         foreach (range(1, 10) as $index) {
             \App\Project::create([
-                'name'              => $faker->sentence(5)
+                'author'            => $faker->randomElement(['user', 'company'])
+                , 'author_id'       => $faker->numberBetween($min = 1, $max = 25)
+                , 'name'            => $faker->sentence(5)
                 , 'description'     => $faker->paragraph(2)
                 , 'body'            => $faker->paragraph(5)
             ]);

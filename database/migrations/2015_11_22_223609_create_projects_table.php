@@ -14,6 +14,8 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->increments('id');
+            $table->enum('author', ['user', 'company'])->default("company");
+            $table->integer('author_id')->unsigned();
             $table->string('name');
             $table->text('description');
             $table->text('body');

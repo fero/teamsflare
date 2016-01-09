@@ -4,7 +4,16 @@
     <bookmark url="file://$PROJECT_DIR$/config/auth.php" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b35e51c1-db24-481b-a2f1-72f404d79e26" name="Default" comment="" />
+    <list default="true" id="b35e51c1-db24-481b-a2f1-72f404d79e26" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Company.php" afterPath="$PROJECT_DIR$/app/Company.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Project.php" afterPath="$PROJECT_DIR$/app/Project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Teamsflare/Transformers/ProjectTransformer.php" afterPath="$PROJECT_DIR$/app/Teamsflare/Transformers/ProjectTransformer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/ProjectsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/ProjectsTableSeeder.php" />
+    </list>
     <ignored path="teamsflare.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,14 +34,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApiController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+      <file leaf-file-name="UserTransformer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Teamsflare/Transformers/UserTransformer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34260288">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="e#39#79#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.11679644">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,28 +82,30 @@
         <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Company.php" />
-        <option value="$PROJECT_DIR$/database/seeds/ProjectsTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_12_03_170813_create_companies_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_12_03_170854_create_companies_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/CompaniesTableSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_12_03_202234_add_active_field_to_projects_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php" />
         <option value="$PROJECT_DIR$/app/Http/App/Transformers/Transformer.php" />
         <option value="$PROJECT_DIR$/app/Http/App/Transformers/LessonTransformer.php" />
         <option value="$PROJECT_DIR$/app/Http/Teamsflare/Transformers/ProjectTransformer.php" />
         <option value="$PROJECT_DIR$/app/Http/Teamsflare/Transformers/Transformer.php" />
-        <option value="$PROJECT_DIR$/app/Teamsflare/Transformers/Transformer.php" />
-        <option value="$PROJECT_DIR$/app/Teamsflare/Transformers/ProjectTransformer.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ApiContoller.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserstableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Project.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/ProjectsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Company.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
+        <option value="$PROJECT_DIR$/app/Project.php" />
+        <option value="$PROJECT_DIR$/app/Teamsflare/Transformers/Transformer.php" />
+        <option value="$PROJECT_DIR$/app/Teamsflare/Transformers/CompanyTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Teamsflare/Transformers/ProjectTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Teamsflare/Transformers/UserTransformer.php" />
       </list>
     </option>
   </component>
@@ -545,25 +554,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Requests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamsflare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
-    <property name="SearchEverywhereHistoryKey" value="increments&#9;null&#9;null&#10;getrawtags&#9;null&#9;null&#10;auth.php&#9;FILE&#9;file://D:/projects/teamsflare/config/auth.php" />
+    <property name="SearchEverywhereHistoryKey" value="auto&#9;FILE&#9;file://D:/projects/teamsflare/vendor/autoload.php&#10;rout&#9;FILE&#9;file://D:/projects/teamsflare/app/Http/routes.php&#10;increments&#9;null&#9;null&#10;getrawtags&#9;null&#9;null&#10;auth.php&#9;FILE&#9;file://D:/projects/teamsflare/config/auth.php" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -683,53 +713,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21802002">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/browser-sync-ui/static/components/buttons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/less/components/buttons.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/jquery/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/jquery/.bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gulp-notify/assets/gulp-error.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2451539">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/en/auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -884,13 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_03_170854_create_companies_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46718577">
@@ -898,63 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Company.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/CompaniesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3737486">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5783718">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1447099304898" expanded="true" signature="122:402" placeholder="{...}" />
-            <marker date="1447099304898" expanded="true" signature="132:208" placeholder=" Bootstrap any application services. ..." />
-            <marker date="1447099304898" expanded="true" signature="237:260" placeholder="{...}" />
-            <marker date="1447099304898" expanded="true" signature="269:344" placeholder=" Register any application services. ..." />
-            <marker date="1447099304898" expanded="true" signature="377:400" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Teamsflare/Transformers/Transformer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031145718">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding>
-            <marker date="1451087680426" expanded="true" signature="72:348" placeholder="{...}" />
-            <marker date="1451087680426" expanded="true" signature="82:180" placeholder=" Transform a collection of projects! ..." />
-            <marker date="1451087680426" expanded="true" signature="230:298" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Teamsflare/Transformers/ProjectTransformer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40489432">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <marker date="1451088389970" expanded="true" signature="90:554" placeholder="{...}" />
-            <marker date="1451088389970" expanded="true" signature="100:184" placeholder=" Transform a project ..." />
-            <marker date="1451088389970" expanded="true" signature="228:551" placeholder="..." />
-            <marker date="1451088389970" expanded="true" signature="245:544" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,20 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68854284">
-          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-          <folding>
-            <marker date="1451090961737" expanded="true" signature="113:981" placeholder="{...}" />
-            <marker date="1451090961737" expanded="true" signature="123:209" placeholder=" The application's global HTTP middleware stack. ..." />
-            <marker date="1451090961737" expanded="true" signature="241:632" placeholder="..." />
-            <marker date="1451090961737" expanded="true" signature="643:717" placeholder=" The application's route middleware. ..." />
-            <marker date="1451090961737" expanded="true" signature="754:977" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1868743">
@@ -1046,45 +955,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21802002">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <marker date="1449169092500" expanded="true" signature="18:69" placeholder="..." />
-            <marker date="1449169092500" expanded="true" signature="36:68" placeholder="..." />
-            <marker date="1449169092500" expanded="true" signature="86:178" placeholder="..." />
-            <marker date="1449169092500" expanded="true" signature="122:177" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ProjectsTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6229144">
-          <caret line="21" column="15" selection-start-line="17" selection-start-column="12" selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <marker date="1449162126993" expanded="false" signature="11:66" placeholder="..." />
-            <marker date="1449162126993" expanded="true" signature="108:542" placeholder="{...}" />
-            <marker date="1449162126993" expanded="true" signature="118:182" placeholder=" Run the database seeds. ..." />
-            <marker date="1449162126993" expanded="true" signature="210:540" placeholder="{...}" />
-            <marker date="1449162126993" expanded="true" signature="294:533" placeholder="..." />
-            <marker date="1449162126993" expanded="true" signature="328:522" placeholder="..." />
-            <marker date="1449162126993" expanded="true" signature="329:521" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5294772">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <marker date="1451264139578" expanded="false" signature="11:78" placeholder="..." />
-            <marker date="1451264139578" expanded="true" signature="115:530" placeholder="{...}" />
-            <marker date="1451264139578" expanded="true" signature="125:189" placeholder=" Run the database seeds. ..." />
-            <marker date="1451264139578" expanded="true" signature="217:528" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,23 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12458287">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <marker date="1451264102587" expanded="true" signature="77:402" placeholder="{...}" />
-            <marker date="1451264102587" expanded="true" signature="87:151" placeholder=" Run the database seeds. ..." />
-            <marker date="1451264102587" expanded="true" signature="179:400" placeholder="{...}" />
-            <marker date="1451264102587" expanded="true" signature="212:392" placeholder="..." />
-            <marker date="1451264102587" expanded="true" signature="213:391" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24916574">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <marker date="1451267515152" expanded="true" signature="91:154" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,41 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46718577">
-          <caret line="61" column="95" selection-start-line="61" selection-start-column="95" selection-end-line="61" selection-end-column="95" />
-          <folding>
-            <marker date="1451268287971" expanded="true" signature="44:199" placeholder="..." />
-            <marker date="1451268287971" expanded="true" signature="247:2721" placeholder="{...}" />
-            <marker date="1451268287971" expanded="true" signature="258:324" placeholder=" @var \App\Teamsflare\Transformers\ProjectTransformer ..." />
-            <marker date="1451268287971" expanded="true" signature="370:468" placeholder=" ProjectsController constructor. ..." />
-            <marker date="1451268287971" expanded="true" signature="544:671" placeholder="..." />
-            <marker date="1451268287971" expanded="true" signature="681:757" placeholder=" Display a listing of the resource. ..." />
-            <marker date="1451268287971" expanded="true" signature="787:970" placeholder="{...}" />
-            <marker date="1451268287971" expanded="true" signature="860:962" placeholder="..." />
-            <marker date="1451268287971" expanded="true" signature="861:961" placeholder="..." />
-            <marker date="1451268287971" expanded="true" signature="979:1083" placeholder=" Show the form for creating a new resource. ..." />
-            <marker date="1451268287971" expanded="true" signature="1114:1137" placeholder="{...}" />
-            <marker date="1451268287971" expanded="true" signature="1146:1300" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1451268287971" expanded="true" signature="1346:1645" placeholder="{...}" />
-            <marker date="1451268287971" expanded="true" signature="1420:1527" placeholder="..." />
-            <marker date="1451268287971" expanded="true" signature="1654:1750" placeholder=" Display the specified resource. ..." />
-            <marker date="1451268287971" expanded="true" signature="1782:2062" placeholder="{...}" />
-            <marker date="1451268287971" expanded="true" signature="1853:1942" placeholder="{...}" />
-            <marker date="1451268287971" expanded="true" signature="1974:2054" placeholder="..." />
-            <marker date="1451268287971" expanded="true" signature="1975:2053" placeholder="..." />
-            <marker date="1451268287971" expanded="true" signature="2071:2206" placeholder=" Show the form for editing the specified resource. ..." />
-            <marker date="1451268287971" expanded="true" signature="2238:2261" placeholder="{...}" />
-            <marker date="1451268287971" expanded="true" signature="2270:2447" placeholder=" Update the specified resource in storage. ..." />
-            <marker date="1451268287971" expanded="true" signature="2499:2522" placeholder="{...}" />
-            <marker date="1451268287971" expanded="true" signature="2531:2660" placeholder=" Remove the specified resource from storage. ..." />
-            <marker date="1451268287971" expanded="true" signature="2695:2718" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1182,17 +1004,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1868743">
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <marker date="1447099304867" expanded="false" signature="44:252" placeholder="..." />
-            <marker date="1447099304867" expanded="true" signature="302:369" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4983315">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.35595107">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="35" />
           <folding>
             <marker date="1448974097028" expanded="false" signature="9:234" placeholder="..." />
             <marker date="1448974097028" expanded="true" signature="286:381" placeholder=" Response represents an HTTP response. ..." />
@@ -1385,13 +1203,370 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21802002">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <marker date="1449169092500" expanded="true" signature="18:69" placeholder="..." />
+            <marker date="1449169092500" expanded="true" signature="36:68" placeholder="..." />
+            <marker date="1449169092500" expanded="true" signature="86:178" placeholder="..." />
+            <marker date="1449169092500" expanded="true" signature="122:177" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34260288">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.4705228">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#39#79#0#PHP" expanded="true" />
+            <marker date="1451269956309" expanded="true" signature="43:148" placeholder="..." />
+            <marker date="1451269956309" expanded="true" signature="188:2143" placeholder="{...}" />
+            <marker date="1451269956309" expanded="true" signature="198:220" placeholder=" @var int ..." />
+            <marker date="1451269956309" expanded="true" signature="288:315" placeholder=" @return mixed ..." />
+            <marker date="1451269956309" expanded="true" signature="353:399" placeholder="{...}" />
+            <marker date="1451269956309" expanded="true" signature="408:461" placeholder=" @param $statusCode ..." />
+            <marker date="1451269956309" expanded="true" signature="510:586" placeholder="{...}" />
+            <marker date="1451269956309" expanded="true" signature="595:652" placeholder=" @param string $message ..." />
+            <marker date="1451269956309" expanded="true" signature="715:828" placeholder="{...}" />
+            <marker date="1451269956309" expanded="true" signature="837:894" placeholder=" @param string $message ..." />
+            <marker date="1451269956309" expanded="true" signature="967:1092" placeholder="{...}" />
+            <marker date="1451269956309" expanded="true" signature="1101:1177" placeholder=" @param $data ..." />
+            <marker date="1451269956309" expanded="true" signature="1229:1313" placeholder="{...}" />
+            <marker date="1451269956309" expanded="true" signature="1322:1372" placeholder=" @param $message ..." />
+            <marker date="1451269956309" expanded="true" signature="1421:1626" placeholder="{...}" />
+            <marker date="1451269956309" expanded="true" signature="1458:1618" placeholder="..." />
+            <marker date="1451269956309" expanded="true" signature="1459:1617" placeholder="..." />
+            <marker date="1451269956309" expanded="true" signature="1484:1607" placeholder="..." />
+            <marker date="1451269956309" expanded="true" signature="1635:1685" placeholder=" @param $message ..." />
+            <marker date="1451269956309" expanded="true" signature="1732:1889" placeholder="{...}" />
+            <marker date="1451269956309" expanded="true" signature="1831:1881" placeholder="..." />
+            <marker date="1451269956309" expanded="true" signature="1832:1880" placeholder="..." />
+            <marker date="1451269956309" expanded="true" signature="1898:1948" placeholder=" @param $message ..." />
+            <marker date="1451269956309" expanded="true" signature="2004:2141" placeholder="{...}" />
+            <marker date="1451269956309" expanded="true" signature="2125:2133" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6818688">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="32" />
+          <folding>
+            <marker date="1448974138362" expanded="false" signature="45:266" placeholder="..." />
+            <marker date="1448974138362" expanded="true" signature="334:2812" placeholder="{...}" />
+            <marker date="1448974138362" expanded="true" signature="344:418" placeholder=" The algorithm used for encryption. ..." />
+            <marker date="1448974138362" expanded="true" signature="452:584" placeholder=" Create a new encrypter instance. ..." />
+            <marker date="1448974138362" expanded="true" signature="649:967" placeholder="{...}" />
+            <marker date="1448974138362" expanded="true" signature="734:811" placeholder="..." />
+            <marker date="1448974138362" expanded="true" signature="819:960" placeholder="..." />
+            <marker date="1448974138362" expanded="true" signature="976:1135" placeholder=" Determine if the given key and cipher combination is valid. ..." />
+            <marker date="1448974138362" expanded="true" signature="1189:1356" placeholder="{...}" />
+            <marker date="1448974138362" expanded="true" signature="1365:1462" placeholder=" Encrypt the given value. ..." />
+            <marker date="1448974138362" expanded="true" signature="1500:2152" placeholder="{...}" />
+            <marker date="1448974138362" expanded="true" signature="1680:1760" placeholder="..." />
+            <marker date="1448974138362" expanded="true" signature="2161:2260" placeholder=" Decrypt the given value. ..." />
+            <marker date="1448974138362" expanded="true" signature="2300:2662" placeholder="{...}" />
+            <marker date="1448974138362" expanded="true" signature="2534:2614" placeholder="..." />
+            <marker date="1448974138362" expanded="true" signature="2671:2742" placeholder=" Get the IV size for the cipher. ..." />
+            <marker date="1448974138362" expanded="true" signature="2779:2810" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Crypt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43604004">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <marker date="1448974142507" expanded="true" signature="49:92" placeholder=" @see \Illuminate\Encryption\Encrypter ..." />
+            <marker date="1448974142507" expanded="true" signature="121:309" placeholder="{...}" />
+            <marker date="1448974142507" expanded="true" signature="131:215" placeholder=" Get the registered name of the component. ..." />
+            <marker date="1448974142507" expanded="true" signature="267:307" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33259177">
+          <caret line="129" column="30" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+          <folding>
+            <marker date="1448974142553" expanded="false" signature="50:107" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="130:5442" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="140:257" placeholder=" The application instance being facaded. ..." />
+            <marker date="1448974142553" expanded="true" signature="295:364" placeholder=" The resolved object instances. ..." />
+            <marker date="1448974142553" expanded="true" signature="415:538" placeholder=" Hotswap the underlying instance behind the facade. ..." />
+            <marker date="1448974142553" expanded="true" signature="583:744" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="753:873" placeholder=" Initiate a mock expectation on the facade. ..." />
+            <marker date="1448974142553" expanded="true" signature="918:1230" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="1002:1065" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="1073:1142" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="1239:1374" placeholder=" Create a fresh mock instance for the given class. ..." />
+            <marker date="1448974142553" expanded="true" signature="1437:1706" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="1617:1676" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="1715:1850" placeholder=" Create a fresh mock instance for the given class. ..." />
+            <marker date="1448974142553" expanded="true" signature="1906:2034" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="2043:2147" placeholder=" Determines whether a mock is set as the instance of the facade. ..." />
+            <marker date="1448974142553" expanded="true" signature="2188:2363" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="2372:2466" placeholder=" Get the mockable class for the bound instance. ..." />
+            <marker date="1448974142553" expanded="true" signature="2517:2623" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="2570:2616" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="2632:2712" placeholder=" Get the root object behind the facade. ..." />
+            <marker date="1448974142553" expanded="true" signature="2757:2844" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="2853:2977" placeholder=" Get the registered name of the component. ..." />
+            <marker date="1448974142553" expanded="true" signature="3029:3132" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="3141:3271" placeholder=" Resolve the facade root instance from the container. ..." />
+            <marker date="1448974142553" expanded="true" signature="3332:3603" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="3370:3405" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="3462:3524" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="3612:3715" placeholder=" Clear a resolved facade instance. ..." />
+            <marker date="1448974142553" expanded="true" signature="3773:3834" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="3843:3920" placeholder=" Clear all of the resolved instances. ..." />
+            <marker date="1448974142553" expanded="true" signature="3974:4026" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="4035:4163" placeholder=" Get the application instance behind the facade. ..." />
+            <marker date="1448974142553" expanded="true" signature="4215:4256" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="4265:4401" placeholder=" Set the application instance. ..." />
+            <marker date="1448974142553" expanded="true" signature="4457:4498" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="4507:4652" placeholder=" Handle dynamic, static calls to the object. ..." />
+            <marker date="1448974142553" expanded="true" signature="4710:5440" placeholder="{...}" />
+            <marker date="1448974142553" expanded="true" signature="4789:4873" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="4907:5433" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="4927:4972" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="4993:5046" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="5067:5130" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="5151:5224" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="5245:5328" placeholder="..." />
+            <marker date="1448974142553" expanded="true" signature="5350:5424" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_22_223609_create_projects_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36596218">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <marker date="1452369430633" expanded="false" signature="11:94" placeholder="..." />
+            <marker date="1452369430633" expanded="true" signature="139:843" placeholder="{...}" />
+            <marker date="1452369430633" expanded="true" signature="149:209" placeholder=" Run the migrations. ..." />
+            <marker date="1452369430633" expanded="true" signature="236:693" placeholder="{...}" />
+            <marker date="1452369430633" expanded="true" signature="266:685" placeholder="..." />
+            <marker date="1452369430633" expanded="true" signature="307:684" placeholder="..." />
+            <marker date="1452369430633" expanded="true" signature="702:766" placeholder=" Reverse the migrations. ..." />
+            <marker date="1452369430633" expanded="true" signature="795:841" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/npmconf/test/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1448973612477" expanded="true" signature="488:554" placeholder="[...]" />
+            <marker date="1448973612477" expanded="true" signature="576:936" placeholder="{...}" />
+            <marker date="1448973612477" expanded="true" signature="608:667" placeholder="{&quot;prefix&quot;: ''...}" />
+            <marker date="1448973612477" expanded="true" signature="684:747" placeholder="{&quot;type&quot;: 'ini'...}" />
+            <marker date="1448973612477" expanded="true" signature="760:824" placeholder="{&quot;type&quot;: 'ini'...}" />
+            <marker date="1448973612477" expanded="true" signature="839:905" placeholder="{&quot;type&quot;: 'ini'...}" />
+            <marker date="1448973612477" expanded="true" signature="970:1345" placeholder="{...}" />
+            <marker date="1448973612477" expanded="true" signature="1012:1342" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CompaniesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34260288">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1449166997112" expanded="false" signature="11:66" placeholder="..." />
+            <marker date="1449166997112" expanded="true" signature="109:421" placeholder="{...}" />
+            <marker date="1449166997112" expanded="true" signature="119:183" placeholder=" Run the database seeds. ..." />
+            <marker date="1449166997112" expanded="true" signature="211:419" placeholder="{...}" />
+            <marker date="1449166997112" expanded="true" signature="295:412" placeholder="..." />
+            <marker date="1449166997112" expanded="true" signature="329:401" placeholder="..." />
+            <marker date="1449166997112" expanded="true" signature="330:400" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ProjectsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48832035">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding>
+            <marker date="1452375387388" expanded="false" signature="11:66" placeholder="..." />
+            <marker date="1452375387388" expanded="true" signature="108:706" placeholder="{...}" />
+            <marker date="1452375387388" expanded="true" signature="118:182" placeholder=" Run the database seeds. ..." />
+            <marker date="1452375387388" expanded="true" signature="210:704" placeholder="{...}" />
+            <marker date="1452375387388" expanded="true" signature="294:697" placeholder="..." />
+            <marker date="1452375387388" expanded="true" signature="328:686" placeholder="..." />
+            <marker date="1452375387388" expanded="true" signature="329:685" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35038933">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <marker date="1452375676951" expanded="true" signature="91:180" placeholder="{...}" />
+            <marker date="1452375676951" expanded="true" signature="126:177" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61067855">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+          <folding>
+            <marker date="1451090961737" expanded="true" signature="113:981" placeholder="{...}" />
+            <marker date="1451090961737" expanded="true" signature="123:209" placeholder=" The application's global HTTP middleware stack. ..." />
+            <marker date="1451090961737" expanded="true" signature="241:632" placeholder="..." />
+            <marker date="1451090961737" expanded="true" signature="643:717" placeholder=" The application's route middleware. ..." />
+            <marker date="1451090961737" expanded="true" signature="754:977" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1447099304883" expanded="true" signature="124:135" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5839822">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <marker date="1452377186161" expanded="true" signature="44:199" placeholder="..." />
+            <marker date="1452377186161" expanded="true" signature="247:2832" placeholder="{...}" />
+            <marker date="1452377186161" expanded="true" signature="258:324" placeholder=" @var \App\Teamsflare\Transformers\ProjectTransformer ..." />
+            <marker date="1452377186161" expanded="true" signature="370:468" placeholder=" ProjectsController constructor. ..." />
+            <marker date="1452377186161" expanded="true" signature="544:671" placeholder="..." />
+            <marker date="1452377186161" expanded="true" signature="681:757" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1452377186161" expanded="true" signature="787:1081" placeholder="{...}" />
+            <marker date="1452377186161" expanded="true" signature="872:938" placeholder="..." />
+            <marker date="1452377186161" expanded="true" signature="971:1073" placeholder="..." />
+            <marker date="1452377186161" expanded="true" signature="972:1072" placeholder="..." />
+            <marker date="1452377186161" expanded="true" signature="1090:1194" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1452377186161" expanded="true" signature="1225:1248" placeholder="{...}" />
+            <marker date="1452377186161" expanded="true" signature="1257:1411" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1452377186161" expanded="true" signature="1457:1756" placeholder="{...}" />
+            <marker date="1452377186161" expanded="true" signature="1531:1638" placeholder="..." />
+            <marker date="1452377186161" expanded="true" signature="1765:1861" placeholder=" Display the specified resource. ..." />
+            <marker date="1452377186161" expanded="true" signature="1893:2173" placeholder="{...}" />
+            <marker date="1452377186161" expanded="true" signature="1964:2053" placeholder="{...}" />
+            <marker date="1452377186161" expanded="true" signature="2085:2165" placeholder="..." />
+            <marker date="1452377186161" expanded="true" signature="2086:2164" placeholder="..." />
+            <marker date="1452377186161" expanded="true" signature="2182:2317" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1452377186161" expanded="true" signature="2349:2372" placeholder="{...}" />
+            <marker date="1452377186161" expanded="true" signature="2381:2558" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1452377186161" expanded="true" signature="2610:2633" placeholder="{...}" />
+            <marker date="1452377186161" expanded="true" signature="2642:2771" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1452377186161" expanded="true" signature="2806:2829" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42825362">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1452380006341" expanded="true" signature="89:382" placeholder="{...}" />
+            <marker date="1452380006341" expanded="true" signature="186:379" placeholder="..." />
+            <marker date="1452380006341" expanded="true" signature="228:308" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Teamsflare/Transformers/Transformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03893215">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding>
+            <marker date="1452380745907" expanded="true" signature="72:348" placeholder="{...}" />
+            <marker date="1452380745907" expanded="true" signature="82:180" placeholder=" Transform a collection of projects! ..." />
+            <marker date="1452380745907" expanded="true" signature="230:298" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Teamsflare/Transformers/CompanyTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11679644">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1452380748378" expanded="true" signature="110:501" placeholder="{...}" />
+            <marker date="1452380748378" expanded="true" signature="120:204" placeholder=" Transform a company ..." />
+            <marker date="1452380748378" expanded="true" signature="246:499" placeholder="{...}" />
+            <marker date="1452380748378" expanded="true" signature="269:491" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Teamsflare/Transformers/ProjectTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1452380765220" expanded="true" signature="50:97" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="143:2996" placeholder="{...}" />
+            <marker date="1452380765220" expanded="true" signature="153:210" placeholder=" @var CompanyTransformer $companyTransformer ..." />
+            <marker date="1452380765220" expanded="true" signature="256:307" placeholder=" @var UserTransformer $userTransformer ..." />
+            <marker date="1452380765220" expanded="true" signature="350:495" placeholder=" ProjectTransformer constructor. ..." />
+            <marker date="1452380765220" expanded="true" signature="605:718" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="728:765" placeholder=" @return UserTransformer ..." />
+            <marker date="1452380765220" expanded="true" signature="808:859" placeholder="{...}" />
+            <marker date="1452380765220" expanded="true" signature="868:921" placeholder=" @param UserTransformer $userTransformer ..." />
+            <marker date="1452380765220" expanded="true" signature="980:1043" placeholder="{...}" />
+            <marker date="1452380765220" expanded="true" signature="1052:1092" placeholder=" @return CompanyTransformer ..." />
+            <marker date="1452380765220" expanded="true" signature="1138:1192" placeholder="{...}" />
+            <marker date="1452380765220" expanded="true" signature="1201:1260" placeholder=" @param CompanyTransformer $companyTransformer ..." />
+            <marker date="1452380765220" expanded="true" signature="1325:1394" placeholder="{...}" />
+            <marker date="1452380765220" expanded="true" signature="1403:1487" placeholder=" Transform a project ..." />
+            <marker date="1452380765220" expanded="true" signature="1531:2993" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="1608:2027" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="1650:2017" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="1682:1804" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="1833:1952" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="1977:2004" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="2035:2554" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="2077:2544" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="2123:2530" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="2159:2291" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="2324:2453" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="2482:2513" placeholder="..." />
+            <marker date="1452380765220" expanded="true" signature="2573:2986" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Teamsflare/Transformers/UserTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11679644">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

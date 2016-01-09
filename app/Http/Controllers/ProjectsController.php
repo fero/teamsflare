@@ -35,6 +35,11 @@ class ProjectsController extends ApiController
     public function index()
     {
         $projects = Project::all();
+
+        foreach ($projects as $project) {
+            $project->realAuthor = $project->realAuthor;
+        }
+
         return $this->respond([
             'data' => $this->projectTransformer->transformCollection($projects->toArray())
         ]);
