@@ -34,14 +34,15 @@ class ProjectsController extends ApiController
      */
     public function index()
     {
-        $projects = Project::all();
+        $limit = Input::get("limit") ?: 5;
+        $projects = Project::paginate($limit);
 
         foreach ($projects as $project) {
             $project->realAuthor = $project->realAuthor;
         }
 
-        return $this->respond([
-            'data' => $this->projectTransformer->transformCollection($projects->toArray())
+        return $this->respondWithPagination($projects, [
+            'data' => $this->projectTransformer->transformCollection($projects->toArray()['data'])
         ]);
     }
 
@@ -125,5 +126,4 @@ class ProjectsController extends ApiController
     {
         //
     }
-
 }

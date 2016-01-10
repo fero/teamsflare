@@ -59,6 +59,25 @@ class ApiController extends Controller
     }
 
     /**
+     * @param $items
+     * @param $data
+     * @return mixed
+     */
+    protected function respondWithPagination($items, $data)
+    {
+        $data = array_merge($data, [
+            'paginator' => [
+                'total_count' => $items->total()
+                , 'total_pages' => ceil($items->total() / $items->perPage())
+                , 'current_page' => $items->currentPage()
+                , 'limit' => $items->count()
+            ]
+        ]);
+
+        return $this->respond($data);
+    }
+
+    /**
      * @param $message
      * @return mixed
      */
